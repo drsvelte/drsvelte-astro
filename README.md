@@ -56,6 +56,9 @@ Below are the tools used to develop and design this project:
 - [animista](https://animista.net/) On-Demand CSS Animations Library.
 - [heroicons](https://heroicons.com/) SVG icons for Tailwind CSS via [astro-icons](https://github.com/seanmcp/astro-heroicons#readme).
 - [Iconify](https://iconify.design) via [Astro Icon](https://github.com/natemoo-re/astro-icon) Inline and sprite-based SVGs.
+- [Unsplash](https://unsplash.com) for placeholder photos.
+- [Undraw](https://undraw.co) for SVG illustrations.
+- [DALL-E](https://openai.com/blog/dall-e/) for image generation.
 
 ## DevOps environment
 
@@ -63,14 +66,14 @@ Below are the tools used to develop and design this project:
      - URL: [https://drsvelte.dev](https://drsvelte.dev).
 
 - [Rocky Linux](https://rockylinux.org) VPS configured with the following [Docker](https://docker.com) containers:
-
-- [Drupal](https://drupal.org) with [PHP](https://php.net).
-- [MySQL](https://www.mysql.com/products/community/).
-- [Nginx](https://nginx.org) as web server.
-- [Certbot](https://certbot.eff.org/) with [Let's Encrypt](https://letsencrypt.org/getting-started/) for SSL encryption.
-
-- [Vercel](https://vercel.com) Frontend Cloud - [teams/drsvelte/](https://vercel.com/teams/drsvelte/).
+     - [Drupal](https://drupal.org) with [PHP](https://php.net).
+     - [MySQL](https://www.mysql.com/products/community/).
+     - [Nginx](https://nginx.org) as web server.
+     - [Certbot](https://certbot.eff.org/) with [Let's Encrypt](https://letsencrypt.org/getting-started/) for SSL encryption.
+- [Vercel](https://vercel.com) Frontend Cloud @ CDN for [teams/drsvelte/](https://vercel.com/teams/drsvelte/).
      - URL: [https://drsvelte.com](https://drsvelte.com).
+- [Cloudflare](https://cloudflare.com) - DNS. CDN for Drupal.
+- [Cloudinary](https://cloudinary.com) - Image CDN, though Astro's <Image /> component may be used instead.
 
 ### Repository
 
