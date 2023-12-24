@@ -1,5 +1,8 @@
 # Astro + Tailwind CSS drsvelte.com Project
 
+![screenshot](https://res.cloudinary.com/shinkirin/image/upload/v1702688981/drsvelte/drseltedev-logo.webp)
+
+
 ## 🚀 Project Structure
 
 Inside of the Astro + Tailwind CSS project are the following folders and files:
@@ -39,14 +42,14 @@ All commands are run from the root of the project, from a terminal:
 
 ## 👀 Want to learn more about Astro?
 
-Feel free to check [their documentation](https://docs.astro.build) or jump into their [Discord server](https://astro.build/chat).
+Feel free to check [their documentation](https://docs.astro.build) or visit the Astro community at their [Discord server](https://astro.build/chat).
 
 ## Building Tools
 
 Below are the tools used to develop and design this project:
 
-- [Astro](https://astro.build/) framework for the front-end development.
-- [Tailwind CSS](https://tailwindcss.com) framework for the designs.
+- [Astro](https://astro.build/) framework for front-end development.
+- [Tailwind CSS](https://tailwindcss.com) framework for website designs.
 - [daisyUI](https://daisyui.com) Tailwind CSS components.
 - [Alpine.js](https://alpinejs.dev/) for the dynamic components.
 - [PinesUI](https://devdojo.com/pines) Alpine & Tailwind UI library.
@@ -57,7 +60,7 @@ Below are the tools used to develop and design this project:
 ## DevOps environment
 
 - [Linode](https://linode.com) hosted on [ROCKY-SEA](https://sea.rockyno.de).
-- URL: [https://drsvelte.dev](https://drsvelte.dev).
+> - URL: [https://drsvelte.dev](https://drsvelte.dev).
 
 - [Rocky Linux](https://rockylinux.org) VPS configured with the following [Docker](https://docker.com) containers:
 >
@@ -92,3 +95,5 @@ All efforts will be carried out to meet full conformation when possible.
 ## Contributing
 
 - [Kevin Matsunaga](https://kevinmatsunaga.com) - Lead Developer.
+
+# drsvelte-astro
