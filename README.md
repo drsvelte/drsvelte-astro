@@ -60,23 +60,22 @@ Below are the tools used to develop and design this project:
 ## DevOps environment
 
 - [Linode](https://linode.com) hosted on [ROCKY-SEA](https://sea.rockyno.de).
-> - URL: [https://drsvelte.dev](https://drsvelte.dev).
+     - URL: [https://drsvelte.dev](https://drsvelte.dev).
 
 - [Rocky Linux](https://rockylinux.org) VPS configured with the following [Docker](https://docker.com) containers:
->
-> - [Drupal](https://drupal.org) with [PHP](https://php.net).
-> - [MySQL](https://www.mysql.com/products/community/).
-> - [Nginx](https://nginx.org) as web server.
-> - [Certbot](https://certbot.eff.org/) with [Let's Encrypt](https://letsencrypt.org/getting-started/) for SSL encryption.
->
+
+- [Drupal](https://drupal.org) with [PHP](https://php.net).
+- [MySQL](https://www.mysql.com/products/community/).
+- [Nginx](https://nginx.org) as web server.
+- [Certbot](https://certbot.eff.org/) with [Let's Encrypt](https://letsencrypt.org/getting-started/) for SSL encryption.
+
 - [Vercel](https://vercel.com) Frontend Cloud - [teams/drsvelte/](https://vercel.com/teams/drsvelte/).
-> - URL: [https://drsvelte.com](https://drsvelte.com).
+     - URL: [https://drsvelte.com](https://drsvelte.com).
 
 ### Repository
 
 - [GitHub](https://github.com) - [drsvelte](https://github.com/drsvelte/).
-> - Project URL: [drsvelte/drsvelte-astro](https://github.com/drsvelte/drsvelte-astro).
-
+     - Repository URL: [drsvelte/drsvelte-astro](https://github.com/drsvelte/drsvelte-astro).
 
 ## License
 
@@ -85,11 +84,11 @@ Below are the tools used to develop and design this project:
 ## Accessibility
 
 All drsvelte projects aim to meet the requirements adhere to meet [WCAG 2.1](https://www.w3.org/TR/WCAG21/) standards based on the following conformance levels:
->
-> - A: Web developers must satisfy these requirements, otherwise it will be impossible for one or more groups to access the Web content.
-> - AA: Web developers should satisfy these requirements, otherwise some groups will find it difficult to access the Web content.
-> - AAA: Web developers may satisfy these requirements to make it easier for some groups to access the Web content.
->
+
+- A: Web developers must satisfy these requirements, otherwise it will be impossible for one or more groups to access the Web content.
+- AA: Web developers should satisfy these requirements, otherwise some groups will find it difficult to access the Web content.
+- AAA: Web developers may satisfy these requirements to make it easier for some groups to access the Web content.
+
 All efforts will be carried out to meet full conformation when possible.
 
 ## Contributing
