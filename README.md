@@ -89,5 +89,6 @@ All drsvelte projects aim to meet the requirements adhere to meet [WCAG 2.1](htt
 >
 All efforts will be carried out to meet full conformation when possible.
 
-# drsvelte-astro
-# drsvelte-astro
+## Contributing
+
+- [Kevin Matsunaga](https://kevinmatsunaga.com) - Lead Developer.
