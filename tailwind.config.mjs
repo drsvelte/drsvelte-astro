@@ -41,6 +41,19 @@ export default {
 					"error": "#b91c1c",
 				},
 			},
+			{
+				adhd: {
+					"primary": "#4C1D95",   // A deep purple for focus and depth
+					"secondary": "#EF4444", // A bright red for energy and passion
+					"accent": "#F59E0B",    // A vivid orange for creativity and enthusiasm
+					"neutral": "#F3F4F6",   // A soft light grey for balance
+					"base-100": "#FFFFFF",  // White for clarity and simplicity
+					"info": "#3B82F6",      // A calming blue for a sense of stability
+					"success": "#10B981",   // A soothing green for calmness and success
+					"warning": "#FBBF24",   // A warm yellow for alertness and caution
+					"error": "#B91C1C",
+			},
+		},
 			"light", "dark", "bumblebee", "cupcake", "emerald", "valentine", "corporate", "retro", "cyberpunk", "aqua", "loft", "dracula", "black", "business", "acid", "autumn", "winter",
 		],
 		darkTheme: "dark", // name of one of the included themes for dark mode
