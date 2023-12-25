@@ -51,6 +51,7 @@ Below are the tools used to develop and design this project:
 - [Astro](https://astro.build/) framework for front-end development.
 - [Tailwind CSS](https://tailwindcss.com) framework for website designs.
 - [daisyUI](https://daisyui.com) Tailwind CSS components.
+     - [CSS Theme Changer](https://github.com/saadeghi/theme-change).
 - [Alpine.js](https://alpinejs.dev/) for the dynamic components.
 - [PinesUI](https://devdojo.com/pines) Alpine & Tailwind UI library.
 - [animista](https://animista.net/) On-Demand CSS Animations Library.
@@ -79,10 +80,6 @@ Below are the tools used to develop and design this project:
 
 - [GitHub](https://github.com) - [drsvelte](https://github.com/drsvelte/).
      - Repository URL: [drsvelte/drsvelte-astro](https://github.com/drsvelte/drsvelte-astro).
-
-## License
-
-[BSD 3-Clause License](LICENSE).
 
 ## Accessibility
 
