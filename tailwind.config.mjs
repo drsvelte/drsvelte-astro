@@ -27,7 +27,22 @@ export default {
 
 	// daisyUI config (optional - here are the default values)
 	daisyui: {
-		themes: ["light", "dark", "cupcake", "emerald", "valentine", "corporate", "retro"],
+		themes: [
+			{
+				dcyftheme: {
+					"primary": "#853694",
+					"secondary": "#006580",						
+					"accent": "#934BA1",
+					"neutral": "#f3e8ff",
+					"base-100": "#f3f4f6",
+					"info": "#16a34a",
+					"success": "#9333ea",
+					"warning": "#e11d48",
+					"error": "#b91c1c",
+				},
+			},
+			"light", "dark", "bumblebee", "cupcake", "emerald", "valentine", "corporate", "retro", "cyberpunk", "aqua", "loft", "dracula", "black", "business", "acid", "autumn", "winter",
+		],
 		darkTheme: "dark", // name of one of the included themes for dark mode
 		base: true, // applies background color and foreground color for root element by default
 		styled: true, // include daisyUI colors and design decisions for all components
