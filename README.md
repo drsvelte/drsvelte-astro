@@ -71,6 +71,7 @@ Below are the tools used to develop and design this project:
      - [MySQL](https://www.mysql.com/products/community/).
      - [Nginx](https://nginx.org) as web server.
      - [Certbot](https://certbot.eff.org/) with [Let's Encrypt](https://letsencrypt.org/getting-started/) for SSL encryption.
+- If needed, Nginx will be used as a Reverse Proxy.
 - [Vercel](https://vercel.com) Frontend Cloud and CDN for [teams/drsvelte/](https://vercel.com/teams/drsvelte/).
      - Site URL: [https://drsvelte.com](https://drsvelte.com).
      - Project URL: [https://drsvelte.vercel.app](https://drsvelte.vercel.app).
