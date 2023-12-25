@@ -72,7 +72,8 @@ Below are the tools used to develop and design this project:
      - [Nginx](https://nginx.org) as web server.
      - [Certbot](https://certbot.eff.org/) with [Let's Encrypt](https://letsencrypt.org/getting-started/) for SSL encryption.
 - [Vercel](https://vercel.com) Frontend Cloud and CDN for [teams/drsvelte/](https://vercel.com/teams/drsvelte/).
-     - URL: [https://drsvelte.com](https://drsvelte.com).
+     - Site URL: [https://drsvelte.com](https://drsvelte.com).
+     - Project URL: [https://drsvelte.vercel.app](https://drsvelte.vercel.app).
 - [Cloudflare](https://cloudflare.com) - DNS. CDN for Drupal.
 - [Cloudinary](https://cloudinary.com) - Image CDN, though Astro's Image component may be used instead.
 
