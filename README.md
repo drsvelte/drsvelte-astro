@@ -23,7 +23,7 @@ Inside of the Astro + Tailwind CSS project are the following folders and files:
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+There's nothing special about `src/components/`, but that's where any Astro/React/Vue/Svelte/Preact components are located.
 
 Any static assets, like images, can be placed in the `public/` directory.
 
@@ -71,10 +71,10 @@ Below are the tools used to develop and design this project:
      - [MySQL](https://www.mysql.com/products/community/).
      - [Nginx](https://nginx.org) as web server.
      - [Certbot](https://certbot.eff.org/) with [Let's Encrypt](https://letsencrypt.org/getting-started/) for SSL encryption.
-- [Vercel](https://vercel.com) Frontend Cloud @ CDN for [teams/drsvelte/](https://vercel.com/teams/drsvelte/).
+- [Vercel](https://vercel.com) Frontend Cloud and CDN for [teams/drsvelte/](https://vercel.com/teams/drsvelte/).
      - URL: [https://drsvelte.com](https://drsvelte.com).
 - [Cloudflare](https://cloudflare.com) - DNS. CDN for Drupal.
-- [Cloudinary](https://cloudinary.com) - Image CDN, though Astro's <Image /> component may be used instead.
+- [Cloudinary](https://cloudinary.com) - Image CDN, though Astro's Image component may be used instead.
 
 ### Repository
 
