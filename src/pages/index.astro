@@ -1,5 +1,5 @@
 ---
-
+import Layout from '../Layout.astro';
 ---
 
 <html lang="en">
@@ -8,9 +8,10 @@
 	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 	<meta name="viewport" content="width=device-width" />
 	<meta name="generator" content={Astro.generator} />
-	<title>Astro</title>
+	<title>drsvelte prototype</title>
 </head>
 <body>
+    <Layout>
 	<div 
         x-data="{ fullscreenModal: false }"
         x-init="
@@ -79,5 +80,6 @@
             </div>
         </div>
     </div>
+</Layout>
 </body>
 </html>

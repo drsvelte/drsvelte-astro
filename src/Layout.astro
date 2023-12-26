@@ -20,15 +20,95 @@
       // 👆 you could import the CDN directly instead of these two lines
     </script>
     <meta charset="utf-8" />
-    <title>My Cool Astro Layout Wraping All My Pages</title>
+    <title>drsvelte prototye</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="#">Posts</a>
-      <a href="#">Contact</a>
-    </nav>
+    <section class="w-full px-6 pb-12 antialiased bg-base-100">
+      <div class="mx-auto max-w-7xl">
+  
+          <nav class="relative z-50 h-24 select-none" x-data="{ showMenu: false }">
+              <div class="container relative flex flex-wrap items-center justify-between h-24 mx-auto overflow-hidden font-medium border-b border-warning md:overflow-visible lg:justify-center sm:px-4 md:px-2 lg:px-0">
+                  <div class="flex items-center justify-start w-1/4 h-full pr-4">
+                      <a href="#_" class="flex items-center py-4 space-x-2 font-extrabold text-primary md:py-0">
+                          <span class="flex items-center justify-center w-8 h-8 text-white bg-success rounded-full">
+                              <svg class="w-auto h-5 -translate-y-px" viewBox="0 0 69 66" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m31.2 12.2-3.9 12.3-13.4.5-13.4.5 10.7 7.7L21.8 41l-3.9 12.1c-2.2 6.7-3.8 12.4-3.6 12.5.2.2 5-3 10.6-7.1 5.7-4.1 10.9-7.2 11.5-6.8.6.4 5.3 3.8 10.5 7.5 5.2 3.8 9.6 6.6 9.8 6.4.2-.2-1.4-5.8-3.6-12.5l-3.9-12.2 8.5-6.2c14.7-10.6 14.8-9.6-.4-9.7H44.2L40 12.5C37.7 5.6 35.7 0 35.5 0c-.3 0-2.2 5.5-4.3 12.2Z" fill="currentColor"/></svg>
+                          </span>
+                          <span class="text-primary">drsvelte prototype</span>
+                      </a>
+                  </div>
+                  <div class="top-0 left-0 items-start hidden w-full h-full p-4 text-sm bg-success bg-opacity-50 md:items-center md:w-3/4 md:absolute lg:text-base md:bg-neutral md:p-0 md:relative md:flex" :class="{'flex fixed': showMenu, 'hidden': !showMenu }">
+                      <div class="flex-col w-full h-auto overflow-hidden bg-neutral rounded-lg md:bg-neutral md:overflow-visible md:rounded-none md:relative md:flex md:flex-row">
+                          <a href="#_" class="inline-flex items-center block w-auto h-16 px-6 text-xl font-black leading-none text-success md:hidden">
+                            <span class="text-primary">drsvelte prototype</span>
+                          </a>
+                          <div class="flex flex-col items-start justify-center w-full space-x-6 text-center lg:space-x-8 md:w-2/3 md:mt-0 md:flex-row md:items-center">
+                              <a href="/" class="inline-block w-full py-2 mx-0 ml-6 font-medium text-left text-primary hover:text-success md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Home</a>
+                              <a href="#_" class="inline-block w-full py-2 mx-0 font-medium text-left text-primary md:w-auto md:px-0 md:mx-2 hover:text-success lg:mx-3 md:text-center">Agency News</a>
+                              <a href="#_" class="inline-block w-full py-2 mx-0 font-medium text-left text-primary md:w-auto md:px-0 md:mx-2 hover:text-success lg:mx-3 md:text-center">Intranet</a>
+                              <a href="#_" class="inline-block w-full py-2 mx-0 font-medium text-left text-primary md:w-auto md:px-0 md:mx-2 hover:text-success lg:mx-3 md:text-center">Contact</a>
+                              <a href="#_" class="absolute top-0 left-0 hidden py-2 mt-6 ml-10 mr-2 text-gray-600 lg:inline-block md:mt-0 md:ml-2 lg:mx-3 md:relative">
+                                  <svg class="inline w-5 h-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                              </a>
+                          </div>
+                          <div class="flex flex-col items-start justify-end w-full pt-4 md:items-center md:w-1/3 md:flex-row md:py-0">
+                              <a href="#_" class="inline-flex items-center w-full px-5 px-6 py-3 text-sm font-medium leading-4 text-neutral bg-primary md:w-auto md:rounded-full hover:bg-success focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-info">Sign in</a>
+                              <div class="m-5">
+                                <select data-choose-theme class="focus:outline-none h-10 rounded-xl px- border dark:text-black">
+                                  <option value="light">Light</option>
+                                  <option value="dark">Dark</option>
+                                  <option value="adhd">ADHD</option>
+                                  <option value="autism">Autism</option>
+                                  <option value="dcyf">DCYF</option>
+                                  <option value="bumblebee">Bumblebee</option>
+                                  <option value="cupcake">Cupcake</option>
+                                  <option value="emerald">Emerald</option>
+                                  <option value="valentine">Valentine</option>
+                                  <option value="corporate">Corporate</option>
+                                  <option value="retro">Retro</option>
+                                  <option value="cyberpunk">Cyberpunk</option>
+                                  <option value="aqua">Aqua</option>
+                                  <option value="lofi">lofi</option>
+                                  <option value="dracula">Dracula</option>
+                                  <option value="autumn">Autumn</option>
+                                  <option value="winter">Winter</option>
+                                  <option value="business">Business</option>
+                                  <option value="black">Black</option>
+                                  <option value="acid">Acid</option>
+                                </select>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div @click="showMenu = !showMenu" class="absolute right-0 flex flex-col items-center items-end justify-center w-10 h-10 bg-success rounded-full cursor-pointer md:hidden hover:bg-warning">
+                      <svg class="w-6 h-6 text-neutral" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                      <svg class="w-6 h-6 text-neutral" x-show="showMenu" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display: none;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                  </div>
+              </div>
+          </nav>
+  
+          <!-- Main Hero Content -->
+          <div class="container max-w-sm py-32 mx-auto mt-px text-left sm:max-w-md md:max-w-lg sm:px-4 md:max-w-none md:text-center">
+              <div class="p-10">
+                <noscript class="font-extrabold text-lg text-warning uppercase transition duration-500 ease-out hover:ease-in">Please enable JavaScript for a richer environment</noscript>
+              </div>
+              <h1 class="text-3xl font-bold leading-10 tracking-tight text-left text-primary md:text-center sm:text-4xl md:text-7xl lg:text-8xl">Welcome to the <br class="hidden sm:block"> CSS World</h1>
+              <div class="mx-auto mt-5 text-secondary md:mt-8 md:max-w-lg md:text-center md:text-xl">Tailwind CSS simplifies choosing the design layout! We will use the <a class="underline decoration-wavy hover:decoration-double hover:text-error hover:underline-offset-8 hover:text-2xl md:hover:text-5xl" href="https://daisyui.com/theme-generator/" role="link" aria-label="DaisyUI Theme Generator" target="_blank" rel="noreferrer" >DaisyUI Theme Generator</a> to help select the colors for the website.</div>
+              <div class="flex flex-col items-center justify-center mt-8 space-y-4 text-center sm:flex-row sm:space-y-0 sm:space-x-4">
+                  <span class="relative inline-flex w-full md:w-auto">
+                      <a href="#_" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-medium leading-6 text-neutral bg-primary border border-transparent rounded-full xl:px-10 md:w-auto hover:bg-secondary hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-info">
+                         Left Button
+                      </a>
+                  </span>
+                  <span class="relative inline-flex w-full md:w-auto">
+                      <a href="#_" class="inline-flex items-center justify-center w-full px-8 py-4 text-base font-medium leading-6 text-gray-50 bg-accent border border-transparent rounded-full xl:px-10 md:w-auto hover:bg-error focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-info">Right Button</a>
+                  </span>
+              </div>
+          </div>
+          <!-- End Main Hero Content -->
+  
+      </div>
+  </section>
     <article>
       <slot />
       <!-- your content from src/pages/index.astro is injected here -->

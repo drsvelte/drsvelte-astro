@@ -13,8 +13,11 @@ Inside of the Astro + Tailwind CSS project are the following folders and files:
 ├── .gitignore
 ├── src/
 │   └── pages/
-│       └── index.astro
+│   │  └── ecosystem.astro
+│   │  └── index.astro
+│   └── Layout.astro
 ├── astro.config.ms
+├── LICENSE
 ├── package.json
 ├── README.md
 ├── tailwind.config.mjs
@@ -23,9 +26,9 @@ Inside of the Astro + Tailwind CSS project are the following folders and files:
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-There's nothing special about `src/components/`, but that's where any Astro/React/Vue/Svelte/Preact components are located.
+There's nothing special about `src/components/`, but that's where any Astro/React/Vue/Svelte/Preact components are located (if used).
 
-Any static assets, like images, can be placed in the `public/` directory.
+Any static assets, like images, care placed in the `public/` directory unless they are uploaded to `Cloudinary`.
 
 ## 🧞 Commands
 
@@ -54,7 +57,7 @@ Below are the tools used to develop and design this project:
      - [CSS Theme Changer](https://github.com/saadeghi/theme-change).
 - [Alpine.js](https://alpinejs.dev/) for the dynamic components.
 - [PinesUI](https://devdojo.com/pines) Alpine & Tailwind UI library.
-- [animista](https://animista.net/) On-Demand CSS Animations Library.
+- [animista](https://animista.net/) On-Demand CSS Animations Library via [tailwindcss-animistacss](https://github.com/vikrantyadav611/tailwindcss-animistacss).
 - [heroicons](https://heroicons.com/) SVG icons for Tailwind CSS via [astro-icons](https://github.com/seanmcp/astro-heroicons#readme).
 - [Iconify](https://iconify.design) via [Astro Icon](https://github.com/natemoo-re/astro-icon) Inline and sprite-based SVGs.
 - [Unsplash](https://unsplash.com) for placeholder photos.

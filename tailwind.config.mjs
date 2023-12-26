@@ -29,7 +29,7 @@ export default {
 	daisyui: {
 		themes: [
 			{
-				dcyftheme: {
+				dcyf: {
 					"primary": "#853694",
 					"secondary": "#006580",						
 					"accent": "#934BA1",
@@ -52,6 +52,17 @@ export default {
 					"success": "#10B981",   // A soothing green for calmness and success
 					"warning": "#FBBF24",   // A warm yellow for alertness and caution
 					"error": "#B91C1C",
+			},
+				autism: {
+					"primary": "#4C7C9B",   // A soft, calming blue representing tranquility
+					"secondary": "#F4D35E", // A gentle yellow for warmth and optimism
+					"accent": "#EE964B",    // A muted orange for a touch of creativity
+					"neutral": "#E0E1DD",   // A neutral off-white for balance and calm
+					"base-100": "#FFFFFF",  // White for clarity and simplicity
+					"info": "#9ED2C6",      // A soothing teal for a sense of calm and focus
+					"success": "#97C8EB",   // A light blue for a serene sense of achievement
+					"warning": "#F2CC8F",   // A soft earthy tone for gentle alertness
+					"error": "#E07A5F",     // A subdued red for non-aggressive attention
 			},
 		},
 			"light", "dark", "bumblebee", "cupcake", "emerald", "valentine", "corporate", "retro", "cyberpunk", "aqua", "loft", "dracula", "black", "business", "acid", "autumn", "winter",
